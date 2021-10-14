@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#validator {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.email_box {
+    text-align: center;
+    padding: 60px 40px;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul>li {
+    text-align: left;
+    font-size: 22px;
+    margin: 20px 10px;
+}
+
+input[type=text] {
+    font-size: 30px;
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    border: transparent;
+    box-shadow: 0 0 1px 1px black;
+}
+
+button {
+    width: 30%;
+    height: 40px;
+    color: #334046;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 8px;
+}
