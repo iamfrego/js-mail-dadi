@@ -4,6 +4,8 @@ console.log(userNumber);
 const pcNumber = Math.floor(Math.random() * (6 - 1 + 1) + 1);
 console.log(pcNumber);
 
+document.getElementById("userNumber").innerHTML = userNumber;
+document.getElementById("pcNumber").innerHTML = pcNumber;
 
 let labelPrint = document.getElementById("winner");
 
@@ -12,5 +14,5 @@ if (userNumber > pcNumber) {
 } else if (pcNumber > userNumber) {
     labelPrint.innerHTML = `Il vincitore è il PC!`;
 } else {
-    labelPrint.innerHTML = `PARITà!`;
+    labelPrint.innerHTML = `PARITÀ!`;
 }
