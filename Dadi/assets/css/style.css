@@ -26,3 +26,9 @@ h1 {
     font-size: xx-large;
     border: red 3px dashed;
 }
+
+.animate__bounce {
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    margin-top: 20rem;
+}
