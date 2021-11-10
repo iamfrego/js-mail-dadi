@@ -1,7 +1,7 @@
-const userNumber = Math.floor(Math.random() * (6 - 1 + 1) + 1);
+const userNumber = Math.floor(Math.random() * 6) + 1;
 console.log(userNumber);
 
-const pcNumber = Math.floor(Math.random() * (6 - 1 + 1) + 1);
+const pcNumber = Math.floor(Math.random() * 6) + 1;
 console.log(pcNumber);
 
 document.getElementById("userNumber").innerHTML = userNumber;
